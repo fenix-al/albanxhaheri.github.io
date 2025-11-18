@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alban Xhaferi - Business Card</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 90%;
+            max-width: 460px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .name {
+            font-size: 26px;
+            font-weight: bold;
+            color: #006c3c;
+        }
+
+        .role {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        .item {
+            margin: 10px 0;
+            font-size: 15px;
+        }
+
+        a {
+            color: #006c3c;
+            text-decoration: none;
+        }
+
+        .qr {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="name">Alban Xhaferi</div>
+        <div class="role">CEO & Founder</div>
+
+        <div class="item">📞 +355 69 209 5035</div>
+        <div class="item">✉️ <a href="mailto:info@alinvest.al">info@alinvest.al</a></div>
+        <div class="item">📍 Rruga “Shkëlqim Fusha”, Pallati Nr.28, Tiranë</div>
+
+        <div class="item">
+            📸 Instagram: <a href="https://instagram.com/alinvest_albania">alinvest_albania</a>
+        </div>
+        <div class="item">
+            📘 Facebook: <a href="#">Al Invest</a>
+        </div>
+        <div class="item">
+            🔗 LinkedIn: <a href="#">Al Invest Albania</a>
+        </div>
+
+        <!-- Opsionale: Vendos një QR Code -->
+        <img class="qr" src="qr.png" width="120">
+    </div>
+
+</body>
+</html>
